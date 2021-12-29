@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<!-- custom css -->
+		<link rel="stylesheet" href="style.css" />
+		<!-- favicon -->
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+		<!-- google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+			rel="stylesheet"
+		/>
+
+		<script src="index.js" defer></script>
+
+		<title>Frontend Mentor | Time tracking dashboard</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body>
+		<main class="grid grid-container container" style="--container-gap: 2rem">
+			<div class="profile-card" style="--radius: 1rem">
+				<div class="bg-blue">
+					<img class="avatar pointer" src="./images/image-jeremy.png" alt="jeremy" />
+					<h1 class="fw-300 report">
+						<span class="fs-200 text-faint">Report for</span>Jeremy Robson
+					</h1>
+				</div>
+				<ul class="flex">
+					<li class="text-faint pointer">Daily</li>
+					<li class="pointer active">Weekly</li>
+					<li class="text-faint pointer">Monthly</li>
+				</ul>
+			</div>
+			<!-- <div class="grid stat-cards" style="--gap: 2rem"> -->
+			<!-- <div class="flex top"> -->
+			<div class="grid card pointer" id="work">
+				<div class="flex card-content bg-dark-blue">
+					<div class="flex top">
+						<p>Work</p>
+						<!-- <img src="./images/icon-ellipsis.svg" alt="" srcset="" /> -->
+						<svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+								fill="#BBC0FF"
+								fill-rule="evenodd"
+							/>
+						</svg>
+					</div>
+					<div>
+						<h1 class="fw-300 fs-700"><span>32</span>hrs</h1>
+						<p class="fw-300 fs-200 text-faint"><span>Last Week</span> - <span>36</span>hrs</p>
+					</div>
+				</div>
+				<!-- </div> -->
+
+				<!-- </div> -->
+			</div>
+			<div class="grid card pointer" id="play">
+				<div class="flex card-content bg-dark-blue">
+					<div class="flex top">
+						<p>Play</p>
+						<svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+								fill="#BBC0FF"
+								fill-rule="evenodd"
+							/>
+						</svg>
+					</div>
+
+					<div>
+						<h1 class="fw-300 fs-700"><span>10</span>hrs</h1>
+						<p class="fw-300 fs-200 text-faint"><span>Last Week</span> - <span>8</span>hrs</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid card pointer" id="study">
+				<div class="flex card-content bg-dark-blue">
+					<div class="flex top">
+						<p>Study</p>
+						<svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+								fill="#BBC0FF"
+								fill-rule="evenodd"
+							/>
+						</svg>
+					</div>
+
+					<div>
+						<h1 class="fw-300 fs-700"><span>4</span>hrs</h1>
+						<p class="fw-300 fs-200 text-faint"><span>Last Week</span> - <span>7</span>hrs</p>
+					</div>
+				</div>
+			</div>
+			<!-- </div> -->
+			<!-- </div> -->
+			<!-- <div class="flex bottom"> -->
+			<div class="grid card pointer" id="exercise">
+				<div class="flex card-content bg-dark-blue">
+					<div class="flex top">
+						<p>Exercise</p>
+						<svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+								fill="#BBC0FF"
+								fill-rule="evenodd"
+							/>
+						</svg>
+					</div>
+
+					<div>
+						<h1 class="fw-300 fs-700"><span>4</span>hrs</h1>
+						<p class="fw-300 fs-200 text-faint"><span>Last Week</span> - <span>5</span>hrs</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid card pointer" id="social">
+				<div class="flex card-content bg-dark-blue">
+					<div class="flex top">
+						<p>Social</p>
+						<svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+								fill="#BBC0FF"
+								fill-rule="evenodd"
+							/>
+						</svg>
+					</div>
+
+					<div>
+						<h1 class="fw-300 fs-700"><span>5</span>hrs</h1>
+						<p class="fw-300 fs-200 text-faint"><span>Last Week</span> - <span>10</span>hrs</p>
+					</div>
+				</div>
+			</div>
+			<div class="grid card pointer" id="self-care">
+				<div class="flex card-content bg-dark-blue">
+					<div class="flex top">
+						<p>Self Care</p>
+						<svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+								fill="#BBC0FF"
+								fill-rule="evenodd"
+							/>
+						</svg>
+					</div>
+
+					<div>
+						<h1 class="fw-300 fs-700"><span>2</span>hrs</h1>
+						<p class="fw-300 fs-200 text-faint"><span>Last Week</span> - <span>2</span>hrs</p>
+					</div>
+				</div>
+			</div>
+		</main>
+		<div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. dev
+			by <a href="https://ridwanabiola.netlify.app/" targt="_blank">Ridwan Abiola</a>.
+		</div>
+	</body>
+</html>
