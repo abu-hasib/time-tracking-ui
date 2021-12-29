@@ -32,8 +32,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FM Solution](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw/hub/mobile-first-time-tracking-ui-mbNPL8jV5)
+- Live Site URL: [Time Tracking UI: (github pages)](https://abu-hasib.github.io/time-tracking-ui/)
+- Live Site URL: [Time Tracking UI: (vercel)](https://time-tracking-ui.vercel.app/)
 
 ## My process
 
